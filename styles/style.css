@@ -131,10 +131,13 @@ nav h2 {
 
 .about_me > h3 {
   font-size: 30px;
+  color: #757575;
 }
 .about_me > p {
   margin: 20px 0;
   line-height: 29px;
+  font-size: 17px;
+  color: #757575;
 }
 
 .about_me_details {
@@ -199,4 +202,39 @@ nav h2 {
 .amazing_6 {
   grid-column: 9/-1;
   grid-row: 5/-1;
+}
+
+/* What i do section */
+.my_work_container {
+  width: 70%;
+  margin: 70px auto;
+}
+.my_work_container h2 {
+  font-size: 35px;
+  text-align: center;
+}
+.my_work_container > p {
+  width: 70%;
+  font-size: 17px;
+  margin: 30px auto;
+  text-align: center;
+  color: #757575;
+}
+
+.my_work_main_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.my_work_main_container > div {
+  border: 1px solid black;
+  padding: 30px;
+}
+.my_work_main_container > div > h3 {
+  font-weight: bolder;
+  margin: 20px 0;
+}
+.my_work_main_container > div > p {
+  line-height: 25px;
+  color: #757575;
 }
