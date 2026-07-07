@@ -16,6 +16,7 @@ header {
   background-position:
     top left,
     bottom right;
+  padding: 10px 0 0;
 }
 .header_container {
   width: 85%;
