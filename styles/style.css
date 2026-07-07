@@ -6,3 +6,50 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+/* header section */
+.header_container {
+  border: 1px solid black;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_container ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  align-items: center;
+}
+.header_container li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.6s;
+  font-weight: bold;
+}
+.header_container li a:hover {
+  color: #fd6e0aff;
+}
+.header_container span {
+  color: #fd6e0aff;
+}
+.header_container button {
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #fd6e0aff;
+  border: 1px solid #fd6e0aff;
+  color: white;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.header_container button:hover {
+  background-color: white;
+  color: #fd6e0aff;
+}
