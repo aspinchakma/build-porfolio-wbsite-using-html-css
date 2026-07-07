@@ -119,3 +119,35 @@ nav h2 {
   background-color: #fd6e0aff;
   color: white;
 }
+
+/* About Me section */
+.about_me {
+  width: 85%;
+  margin: 70px auto;
+  padding: 100px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff8f3;
+}
+
+.about_me > h3 {
+  font-size: 30px;
+}
+.about_me > p {
+  margin: 20px 0;
+}
+
+.about_me_details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.about_me_details > div > h4 {
+  font-size: 17px;
+  font-weight: normal;
+}
+.about_me_details > div > p {
+  font-size: 16px;
+  margin-top: 6px;
+  font-weight: bold;
+}
