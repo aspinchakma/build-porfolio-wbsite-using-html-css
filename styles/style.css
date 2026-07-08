@@ -157,6 +157,48 @@ nav h2 {
   font-weight: bold;
 }
 
+/* summary section */
+.resume_main_container {
+  width: 70%;
+  margin: 0 auto 70px;
+}
+.resume_main_container h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.resume_summary_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.resume_summary_container > div > h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: rgb(78, 75, 75);
+}
+.resume_summary_container > div > div {
+  border-bottom: 1px solid #757575;
+  padding: 20px 0;
+}
+.resume_summary_container > div > div:last-child {
+  border-bottom: none;
+}
+.resume_summary_container > div > div > h3 {
+  font-size: 22px;
+  color: rgb(100, 91, 91);
+}
+.university {
+  font-size: 20px;
+  color: #443f3f;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.skill_details {
+  font-size: 17px;
+  color: #757575;
+}
 /* My amazing work section */
 .my_amazing_work {
   width: 70%;
