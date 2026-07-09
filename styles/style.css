@@ -122,7 +122,13 @@ nav h2 {
   background-color: #fd6e0aff;
   color: white;
 }
-
+.hero_container_right_section {
+  position: relative;
+}
+header img {
+  position: relative;
+  bottom: -4px;
+}
 /* About Me section */
 .about_me {
   width: 70%;
